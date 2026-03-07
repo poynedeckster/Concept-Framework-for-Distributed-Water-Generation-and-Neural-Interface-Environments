@@ -12,3 +12,14 @@ The neural interface concept explores the long-term possibility of direct sensor
 These concepts are presented as early-stage ideas intended for open discussion and further research development.Concept papers exploring distributed water infrastructure, neural interface environments, and global resource equity systems.
 
 Initial concept draft uploaded for open discussion and development.
+## Keywords
+
+water infrastructure  
+fog harvesting  
+wave energy pumping  
+coastal desalination  
+distributed infrastructure  
+brain-computer interface  
+neural interface environments  
+direct sensory VR  
+human infrastructure systems
