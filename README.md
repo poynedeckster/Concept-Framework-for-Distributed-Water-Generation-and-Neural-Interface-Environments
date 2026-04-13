@@ -75,3 +75,19 @@ flowchart TD
     E --> E1[World Rendering]
     E --> E2[Physics Simulation]
     E --> E3[Interaction Logic]
+## Core Insight
+
+The hardest problem in artificial reality is visual cortex writing.
+
+By using the eye instead of the brain for visual input, this system:
+
+- Reduces technical complexity
+- Enables incremental development
+- Bridges current technology with future full immersion systems
+## Vision
+
+This architecture enables a progression from:
+
+AR overlays → partial immersion → full artificial reality environments
+
+without requiring immediate breakthroughs in neural visual simulation.
