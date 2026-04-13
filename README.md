@@ -39,3 +39,39 @@ Possible system components include:
 In some experimental concepts, carefully designed acoustic or environmental signals could help guide animals toward safe care zones without the need for physical capture. These signals may also discourage harmful human interactions by creating monitored environments around animal care infrastructure.
 
 The long-term objective is to develop distributed systems that improve animal welfare, reduce unmanaged stray populations, and promote humane treatment through infrastructure, monitoring, and community participation.
+## Problem
+
+Artificial reality faces a major bottleneck:
+
+Direct neural visual rendering (writing vision into the brain) is extremely complex, high-risk, and not yet viable.
+
+This limits immersion and slows development of full artificial environments.
+## Solution
+
+This system separates artificial reality into two layers:
+
+• Optical Layer → Contact lens renders visual information through natural vision  
+• Neural Layer → BCI provides sensory feedback (touch, motion, presence)
+
+This avoids the need for direct visual cortex stimulation while maintaining immersion potential.
+```mermaid
+flowchart TD
+    A[External Compute + Power Unit] -->|Wireless Power + Data| B[Contact Lens System]
+
+    B --> B1[Optical Display Layer]
+    B --> B2[Eye Tracking Sensors]
+    B --> B3[Inductive Power Receiver]
+
+    B --> C[Human Visual System]
+
+    C --> D[Brain–Computer Interface]
+
+    D --> D1[Touch Feedback]
+    D --> D2[Motion & Spatial Simulation]
+    D --> D3[Environmental Signals]
+
+    D --> E[Artificial Reality Engine]
+
+    E --> E1[World Rendering]
+    E --> E2[Physics Simulation]
+    E --> E3[Interaction Logic]
